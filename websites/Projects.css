@@ -1,0 +1,86 @@
+body{
+    font-family: cursive;
+}
+
+.header img{
+    
+    width: 140px;
+    height: 70px;
+    display: inline-block;
+}
+
+.header{
+    box-shadow: 2px 2px 2px 2px greenyellow;
+    border-radius: 12px;
+    position: fixed;
+    height: 60px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.728);
+}
+
+.header a{
+    margin: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(170, 255, 85);
+    margin-top: 30px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.projects{
+    width: 100%;
+    box-shadow: 2px 2px 2px 4px white;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 9px;
+    margin-left: 10px;
+    text-align: center;
+    align-self: center;
+    color: rgb(180, 203, 156);
+}
+
+.background{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(../imgs/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vZjc4YzRmOTAtYTQ4OS00NzMyLWJhY2ItNTA1N2UwZWUwZjNiLmpwZWc.webp);
+    background-size: cover;
+}
+
+.background .projects h1{
+    width: 220px;
+    color: rgb(188, 255, 188);
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 525px;
+    
+}
+
+.background .projects a{
+    text-align: center;
+    color: rgb(180, 255, 180);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.background .projects .one{
+    margin-left: 30px;
+    display: block;
+}
+
+.background .projects .two{
+    margin-left: 30px;
+}
+
+
+a.one :hover {
+    color: aqua;
+}
+
+a.two :hover {
+    color: aqua;
+}
+
